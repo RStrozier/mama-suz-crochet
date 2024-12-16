@@ -51,7 +51,7 @@ const HomepageHero = () => {
         >
           Welcome to Mama Suz Crochet
         </h1>
-        <p
+        <div
           style={{
             fontSize: "1.5rem",
             fontStyle: "italic",
@@ -60,7 +60,7 @@ const HomepageHero = () => {
           }}
         >
           Handmade Creations with Love
-        </p>
+        </div>
       </div>
     </div>
   );

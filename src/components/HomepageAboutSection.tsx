@@ -17,12 +17,12 @@ const HomepageAboutSection = () => {
       >
         About Mama Suz Crochet
       </h2>
-      <p
+      <div
         style={{
           fontSize: "1.2rem",
           maxWidth: "600px",
           margin: "0 auto",
-          lineHeight: "1.6", // Improve readability
+          lineHeight: "1.6", 
           textShadow: "1px 1px 3px rgba(0, 0, 0, 0.5)", // Subtle shadow for paragraph text
         }}
       >
@@ -33,7 +33,7 @@ const HomepageAboutSection = () => {
         At Mama Suz Crochet, we create handmade, unique, and love-filled crochet items
         to bring joy to your life. Whether it's a gift for a loved one or a special treat
         for yourself, each creation is made with care and attention to detail.
-      </p>
+      </div>
     </div>
   );
 };
