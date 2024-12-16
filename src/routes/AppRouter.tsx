@@ -4,6 +4,7 @@ import AboutPage from "../pages/AboutPage"
 import ShopPage from "../pages/ShopPage"
 import PageNotFound from "../pages/PageNotFound"
 import Navbar from "../components/navbar/Navbar"
+import Footer from "../components/footer/Footer"
 
 const AppRouter = () => {
   return (
@@ -15,6 +16,7 @@ const AppRouter = () => {
       <Route path="/shop" element={<ShopPage />} />
       <Route path="*" element={<PageNotFound />} />
     </Routes>
+    <Footer />
   </BrowserRouter>
   )
 }

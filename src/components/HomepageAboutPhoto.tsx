@@ -4,6 +4,7 @@ import useInView from "../hooks/useInView";
 
 const HomepageAboutPhoto = () => {
   const isInView = useInView({ threshold: 0.1 });
+  
   return (
     <>
       <div style={{ backgroundColor: "#FF8383" }}>
