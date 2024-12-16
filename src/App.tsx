@@ -33,6 +33,7 @@ const App = () => {
               borderRadius: 2,
               textAlign: "center",
             }}
+            // to push
           >
             <Typography variant="h6" component="h2" sx={{ mb: 2, color: "black" }}>
               Enter Password
