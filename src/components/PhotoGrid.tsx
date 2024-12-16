@@ -12,7 +12,7 @@ const photos = [SeahorseOne, TurtleOne, TurtleTwo, NerinaImage, LightDoll, Danny
 const PhotoGrid = () => (
   <Box
     sx={{
-      backgroundColor: "#FFF574", // Yellow background
+      background: "linear-gradient(135deg, #FFDD44, #FF8383)", // Yellow to pink gradient
       padding: "24px 16px", // Padding around the grid
     }}
   >
@@ -28,7 +28,7 @@ const PhotoGrid = () => (
           <Box
             key={index}
             sx={{
-              overflow: "hidden", 
+              overflow: "hidden",
               borderRadius: "8px",
               boxShadow: "0px 4px 6px rgba(0, 0, 0, 0.1)",
               transition: "transform 0.2s ease, box-shadow 0.2s ease", // Add smooth hover effect

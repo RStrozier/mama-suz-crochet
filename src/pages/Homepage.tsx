@@ -7,7 +7,6 @@ const Homepage = () => {
     <>
     <HomepageHero />
       <PhotoGrid />
-      <br />
       <HomepageAbout />
     </>
   );
