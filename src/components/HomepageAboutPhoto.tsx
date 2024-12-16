@@ -4,7 +4,7 @@ import useInView from "../hooks/useInView";
 
 const HomepageAboutPhoto = () => {
   const isInView = useInView({ threshold: 0.1 });
-  
+
   return (
     <>
       <div style={{ backgroundColor: "#FF8383" }}>
@@ -13,15 +13,19 @@ const HomepageAboutPhoto = () => {
           <motion.img
             src={DanielleImage}
             alt="Danielle"
-            className="observed-image" 
+            className="observed-image"
             initial={{ opacity: 0 }}
             animate={{ opacity: isInView ? 1 : 0 }}
-            transition={{ duration: 2 }} 
+            transition={{ duration: 2 }}
+            whileHover={{
+              scale: 1.1, // Slightly grow the image on hover
+              transition: { duration: 0.3, ease: "easeInOut" }, // Smooth hover transition
+            }}
             style={{
               maxWidth: "100%",
               height: "25rem",
               borderRadius: "15px",
-              boxShadow: "0 4px 20px rgba(0, 0, 0, 0.5)"
+              boxShadow: "0 4px 20px rgba(0, 0, 0, 0.5)",
             }}
           />
         </div>
