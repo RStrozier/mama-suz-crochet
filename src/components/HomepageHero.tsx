@@ -44,6 +44,7 @@ const HomepageHero = () => {
           textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)",
         }}
       >
+        <div className="mini-spacer"></div>
         <Typography
           component="h1"
           sx={{
@@ -57,7 +58,9 @@ const HomepageHero = () => {
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)",
           }}
         >
-          Welcome to Mama Suz Crochet
+          Welcome to 
+          <br />
+          Mama Suz Crochet
         </Typography>
         <Box
           sx={{
@@ -71,7 +74,7 @@ const HomepageHero = () => {
             textShadow: "1px 1px 3px rgba(0, 0, 0, 0.6)",
           }}
         >
-          Handmade Creations with Love
+          Handmade Creations with <div className="text-red-400 text-bold">Love</div>
         </Box>
       </div>
     </div>
