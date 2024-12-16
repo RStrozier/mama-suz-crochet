@@ -49,7 +49,7 @@ const HomepageHero = () => {
           component="h1"
           sx={{
             fontSize: {
-              xs: "1.4rem",
+              xs: "1.5rem",
               sm: "1.65rem",
               md: "2.15rem",
             },
