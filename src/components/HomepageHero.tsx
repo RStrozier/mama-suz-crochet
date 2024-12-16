@@ -48,8 +48,8 @@ const HomepageHero = () => {
           component="h1"
           sx={{
             fontSize: {
-              xs: "1.25rem",
-              sm: "1.55rem",
+              xs: "1.4rem",
+              sm: "1.65rem",
               md: "2.15rem",
             },
             fontWeight: "bold",
@@ -62,9 +62,9 @@ const HomepageHero = () => {
         <Box
           sx={{
             fontSize: {
-              xs: "1rem", // Small size for extra-small screens (mobile)
-              sm: "1.25rem", // Slightly larger for small screens
-              md: "1.5rem", // Default size for medium+ screens
+              xs: "1.2rem", // Small size for extra-small screens (mobile)
+              sm: "1.45rem", // Slightly larger for small screens
+              md: "1.65rem", // Default size for medium+ screens
             },
             fontStyle: "italic",
             marginTop: "1rem",
