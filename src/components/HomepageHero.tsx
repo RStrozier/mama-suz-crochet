@@ -1,4 +1,6 @@
+import Typography from "@mui/material/Typography";
 import backgroundVid from "../assets/hero-background.mp4";
+import Box from "@mui/material/Box";
 
 const HomepageHero = () => {
   return (
@@ -42,26 +44,35 @@ const HomepageHero = () => {
           textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)",
         }}
       >
-        <h1
-          style={{
-            fontSize: "2.33rem",
+        <Typography
+          component="h1"
+          sx={{
+            fontSize: {
+              xs: "1.25rem",
+              sm: "1.55rem",
+              md: "2.15rem",
+            },
             fontWeight: "bold",
             margin: "0",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.6)",
           }}
         >
           Welcome to Mama Suz Crochet
-        </h1>
-        <div
-          style={{
-            fontSize: "1.5rem",
+        </Typography>
+        <Box
+          sx={{
+            fontSize: {
+              xs: "1rem", // Small size for extra-small screens (mobile)
+              sm: "1.25rem", // Slightly larger for small screens
+              md: "1.5rem", // Default size for medium+ screens
+            },
             fontStyle: "italic",
             marginTop: "1rem",
             textShadow: "1px 1px 3px rgba(0, 0, 0, 0.6)",
           }}
         >
           Handmade Creations with Love
-        </div>
+        </Box>
       </div>
     </div>
   );
