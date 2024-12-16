@@ -1,4 +1,5 @@
-import HomepageAbout from '../components/HomepageAbout';
+import HomepageAboutPhoto from '../components/HomepageAboutPhoto';
+import HomepageAboutSection from '../components/HomepageAboutSection';
 import HomepageHero from '../components/HomepageHero';
 import PhotoGrid from '../components/PhotoGrid';
 
@@ -7,7 +8,8 @@ const Homepage = () => {
     <>
     <HomepageHero />
       <PhotoGrid />
-      <HomepageAbout />
+      <HomepageAboutPhoto />
+      <HomepageAboutSection />
     </>
   );
 };
