@@ -1,0 +1,22 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.main-color-1 {
+  color: #FF8383;
+}
+
+.main-color-2 {
+  color: #FFF574;
+}
+
+.sub-color-1 {
+  color: #A1D6CB;
+}
+
+.sub-color-2 {
+  color: #A19AD3;
+}
